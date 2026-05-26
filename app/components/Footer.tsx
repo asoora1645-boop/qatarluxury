@@ -3,8 +3,8 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="bg-zinc-950 text-white border-t border-zinc-800">
-      <div className="max-w-7xl mx-auto px-6 py-14">
-        <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4">
+      <div className="max-w-7xl mx-auto px-6 py-12">
+        <div className="grid grid-cols-2  gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <h2 className="text-2xl font-bold text-[#f5b042]">
               Luxury Tours Qatar
@@ -66,7 +66,9 @@ const Footer = () => {
               <p>+974 1234 5678</p>
               <p>info@luxurytoursqatar.com</p>
             </div>
-            <div className="mt-5 flex flex-wrap gap-x-4 gap-y-2 text-sm font-semibold uppercase tracking-wide text-gray-400">
+            
+
+            <div className="mt-5 flex   flex  flex-wrap gap-x-4 gap-y-2 text-sm font-semibold uppercase tracking-wide text-gray-400">
               <a href="#" className="transition hover:text-[#f5b042]">
                 Facebook
               </a>
